@@ -1,0 +1,20 @@
+
+
+
+
+.highlight{
+    color: orange;
+}
+
+.header{
+    display: flex;
+    margin: 75px;
+}
+
+.header-heading{
+    padding-right: 30px;
+}
+.header-heading p{
+    color: gray;
+    font-weight: 500;
+}

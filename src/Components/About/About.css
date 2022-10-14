@@ -1,0 +1,9 @@
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 70px;
+}
+
+.about-container img{
+    margin-left : 70px;
+}
