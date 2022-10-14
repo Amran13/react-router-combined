@@ -18,3 +18,14 @@
     color: gray;
     font-weight: 500;
 }
+
+@media screen and (max-width :480px ){
+    .header{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    .header img{
+        width: 100%;
+    }
+}

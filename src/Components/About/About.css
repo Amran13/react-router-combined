@@ -7,3 +7,17 @@
 .about-container img{
     margin-left : 70px;
 }
+
+
+@media screen and (max-width : 480px){
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        
+    }
+    .about-container img{
+        margin-left: 0px;
+    }
+    
+}

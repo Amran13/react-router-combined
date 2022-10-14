@@ -6,3 +6,16 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
 }
+
+
+@media screen and (max-width : 480px){
+    .meal-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0px;
+        grid-row-gap: 50px;
+    }
+    .meals-container{
+        padding: 10px;
+    }
+}
