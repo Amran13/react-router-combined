@@ -17,7 +17,7 @@ function App() {
         <Route path='/about' element={<About/>}></Route>
         <Route path='/mealdb' element={<Meals/>}></Route>
         <Route path='/rest-countries' element={<RestCountries/>}></Route>
-        <Route path='/country/:country-name' element={<CountryDetail/>}></Route>
+        <Route path='/country/:countryName' element={<CountryDetail/>}></Route>
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </div>

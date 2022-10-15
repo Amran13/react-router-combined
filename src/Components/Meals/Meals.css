@@ -14,8 +14,16 @@
         grid-template-columns: 1fr;
         grid-gap: 0px;
         grid-row-gap: 50px;
+        
     }
     .meals-container{
         padding: 10px;
+        
+    }
+    .meals-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
