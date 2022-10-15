@@ -12,7 +12,7 @@
 @media screen and (max-width : 480px){
     .about-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin: 20px;
         
     }
